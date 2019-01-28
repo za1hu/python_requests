@@ -5,4 +5,4 @@ r = requests.post("https://jdcdev-api.marykayintouch.com.cn/salesdevreport/v1/RC
 f = open(r"C:\Users\Administrator\Desktop\test\EESD-ESD.txt","w")    #创建并打开一个txt
 f.write(r.text)                                           #写入接口响应
 f.close()                                                 #关闭保存txt
-print(r.status_code)                                      #打印状态码
+print(r.status_code)                                      #打印状态码 123132113
